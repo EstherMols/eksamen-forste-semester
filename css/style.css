@@ -12,25 +12,23 @@
   
   nav {
     background-color: #F7F5F5;
-    height: 80px;
+    height: 70px;
     width: 100%;
     position: fixed; 
     top: 0; 
-    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  nav img {
+    height: 70px;
   }
   
   
-  /* label.logo {
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
-  } */
-  
-  
   nav ul {
-    float: right;
+    display: flex;
     margin-right: 20px;
   }
   
@@ -40,50 +38,41 @@
     margin: 0 5px;
   }
   
-  a.active, a.hover {
+  a:hover {
     text-decoration: underline;
   }
   
   nav ul li a {
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     padding: 7px 13px;
     border-radius: 3px;
   }
+
+  nav ul li a.webshop {
+    color: white; 
+    background-color: #333399; 
+  }
   
+  nav ul li a.webshop:hover {
+    background-color: #879AFE; 
+    text-decoration: none; 
+  }
+
   #check {
     display: none;
   }
   
   .checkbtn {
     font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
+    color: black;
     cursor: pointer;
     display: none;
   }
   
-  @media (max-width: 925px){
-  
-    label.logo {
-      font-size: 30px;
-      padding-left: 50px;
-    }
-    
-    nav ul li a {
-      font-size: 16px;
-    }
-  
-    h1 {
-      padding-top: 20px;
-    }
-  }  
-  
-  @media (max-width: 858px){
+  @media (max-width: 1050px){
       .checkbtn {
-      display: block;
+        display: block;
       }
   
       ul {
@@ -94,25 +83,27 @@
         top: 80px;
         left: -100%;
         text-align: center;
-        transition: all .5s;
+        transition: all .3s;
+        flex-direction: column;
+
       }
   
       nav ul li {
        display: block;
-       margin: 50px 0;
+       margin: 20px 0;
        line-height: 30px;
       }
   
       nav ul li a {
-      font-size: 20px;
+        font-size: 20px;
       }
   
-      a:hover, a.active {
+      a:hover{
         text-decoration: underline;
       }
   
       #check:checked ~ ul {
-      left: 0;
+        left: 0;
       }
   }
   
