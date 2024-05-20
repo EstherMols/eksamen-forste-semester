@@ -11,6 +11,10 @@
   body {
     font-family: montserrat, sans-serif;
   }
+
+  html{
+    font-size: 16px;
+  }
  
   /* NAVBAR */
   /* Styling af nav */
@@ -67,12 +71,15 @@
   nav ul li a.webshop {
     color: white; 
     background-color: #333399; 
+    border-radius: 0;
+
   }
   
   /* Styling af "Webshop" ved hover */
   nav ul li a.webshop:hover {
     background-color: #879AFE; 
     text-decoration: none; 
+    border: 0;
   }
 
   /* Skjuler checkbox */
@@ -87,8 +94,67 @@
     cursor: pointer;
     display: none;
   }
+
+/* FORSIDE */
+/* Styling af læs meere funktion */
+.lasmere{
+    text-decoration:underline; 
+    color: black; 
+    font-size: 1.25rem;
+}
+
+
+
+.fireBilleder{
+    padding: 100px 80px 0px 80px;
+}
+
+/* Styling af forside billede øverst */
+.forsideBilledTop{
+    max-width: 100%;
+    margin-top: 70px;
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+}
+
+/* Stylling af nye øl sektion */
+
+.fireBillederNyeOl{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside.fireBillederNyeOl1 {
+    width: 25%;
+}
+
+aside.fireBillederNyeOl1 img{
+    width: 100%;
+}
+
+.nyeOl{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.toBilleder{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside.toBilleder1{
+    width: 50%;
+}
+
+aside.toBilleder1 img{
+    width: 100%;
+}
   
-  /* Skærmstørrelse mindre eller lig med 1050px */
+  /* Skærmstørrelse mindre eller lig med 1050px - Laptop */
   @media (max-width: 1050px){
       .checkbtn {
         display: block;
@@ -104,7 +170,6 @@
         text-align: center;
         transition: all .3s;
         flex-direction: column;
-
       }
   
       nav ul li {
@@ -124,30 +189,64 @@
       #check:checked ~ ul {
         left: 0;
       }
+      .fireBilleder{
+        padding: 80px 60px 0px 60px;
+    }
+    
+    .nyeOl{
+        font-size: 1.25rem;
+    }
+    .lasmere{
+        font-size: 1.1rem;
+    }
+    
   }
   
-    /* Skærmstørrelse mindre eller lig med 393px */
-  @media (max-width: 393px) {
+    /* Skærmstørrelse mindre eller lig med 1px - Tablet  */
+  @media (max-width: 768px) {
   
     h1 {
       padding-top: 24%;
+    }      
+    
+    .fireBilleder{
+        padding: 60px 40px 0px 40px;
     }
+        
+    .nyeOl{
+        font-size: 1.1rem;
+    }
+    .lasmere{
+        font-size: 1rem;
+    }
+
   }
   
-    /* Skærmstørrelse mindre eller lig med 414px */
+    /* Skærmstørrelse mindre eller lig med 375px - Mobil M*/
   @media (max-width: 414px) {
   
     h1 {
       padding-top: 27%;
     }
-  
-  }
-  
-    /* Skærmstørrelse mindre eller lig med 630px */
-  @media (max-width: 630px) {
-  
-    h1 {
-      padding-top: 24%;
+
+    .fireBilleder{
+        padding: 40px 30px 0px 30px;
     }
-  
+
+    .nyeOl{
+        font-size: 1.1rem;
+    }
+    .lasmere{
+        font-size: 1rem;
+    }
+
+    aside.fireBillederNyeOl1 {
+        width: 50%;
+    }
+    aside.toBilleder1 {
+        width: 100%;
+
+    }
+
   }
+  
