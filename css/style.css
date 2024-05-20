@@ -103,8 +103,6 @@
     font-size: 1.25rem;
 }
 
-
-
 .fireBilleder{
     padding: 100px 80px 0px 80px;
 }
@@ -146,12 +144,52 @@ aside.fireBillederNyeOl1 img{
     flex-wrap: wrap;
 }
 
-aside.toBilleder1{
+.toBilleder1{
     width: 50%;
 }
 
-aside.toBilleder1 img{
+.toBilleder1 img{
     width: 100%;
+}
+
+.nytBilled{
+    display: none;
+}
+
+.forsideTekst{
+    padding: 100px 80px 0px 80px;
+    font-size: 2rem;
+}
+
+.forsideTekst p{
+    margin: 50px 0;
+}
+
+.brandBillede{
+    max-width: 100%;
+}
+
+.brandBilledeimg {
+    width: 100%; /* Sørger for, at billedet fylder hele containerens bredde */
+    height: auto; /* Bevarer billedets proportioner */
+    object-fit: cover; /* Sørger for, at billedet fylder containeren uden at blive beskåret */
+    padding: 40px;
+    background-color: #FFF0F5;
+}
+
+.nyhedsBrev{
+    text-align: center;
+    padding: 100px;
+}
+
+.oveskriftNyhedsbrev{
+    font-size: 4rem;
+    padding: 50px;
+}
+
+.skrivMail{
+    border: 1px solid black; /* Tykkelse, type og farve af kanten */
+    padding: 10px; /* Luft mellem tekst og kant */
 }
   
   /* Skærmstørrelse mindre eller lig med 1050px - Laptop */
@@ -220,10 +258,19 @@ aside.toBilleder1 img{
         font-size: 1rem;
     }
 
+    .forsideTekst{
+        padding: 60px 40px 60px 50px;
+        font-size: 1.5rem;
+    }
+    
+    .forsideTekst p{
+        margin: 30px 0;
+    }
+
   }
   
     /* Skærmstørrelse mindre eller lig med 375px - Mobil M*/
-  @media (max-width: 414px) {
+  @media (max-width: 425px) {
   
     h1 {
       padding-top: 27%;
@@ -244,9 +291,35 @@ aside.toBilleder1 img{
         width: 50%;
     }
     aside.toBilleder1 {
-        width: 100%;
-
+        width: 50%;
     }
 
+    .startBillede{
+        display: none;
+    }
+
+    .nytBilled{
+        display: flex;  
+    }
+
+    .forsideTekst{
+        padding: 40px 30px 4px 30px;
+        font-size: 1.25rem;
+    }
+    
+    .forsideTekst p{
+        margin: 20px 0;
+    }
+
+    .brandBilledeimg {
+        padding: 20px;
+  }
+
+  .oveskriftNyhedsbrev{
+    font-size: 3rem;
+  }
+
+  .nyhedsBrev{
+    padding: 30px;
   }
   
