@@ -1,0 +1,86 @@
+/* Nulstiller siden */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  /* Typografi for hele body */
+  body {
+    font-family: montserrat, sans-serif;
+    color: black;
+    font-size: 5rem;
+    justify-content: space-around;
+    text-align: start;
+
+  }
+
+    html{
+    font-size: 16px;
+  }
+
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-color: #DDE9F1;
+  }
+
+  section{
+    width: 50%;
+    flex-direction: row;
+    padding: 180px;
+    border: 5px solid #FF6949;
+  }
+
+  section a{
+    text-decoration: none; 
+    color: black;
+  }
+
+  section a:active{
+    text-decoration: none; 
+  }
+
+  section a:hover{
+    text-decoration: underline; 
+  }
+
+  @media (max-width: 1299px) {
+    body{
+        font-size: 4rem;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    body{
+        font-size: 4rem;
+    }
+    section{
+        padding: 150px 100px ;
+        width: 50%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    body{
+        font-size: 3rem;
+    }
+    section{
+        padding: 150px 100px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    body{
+        font-size: 1rem;
+    }
+
+    section{
+        padding: 150px 50px;
+    }
+  }
+

@@ -101,6 +101,8 @@
     text-decoration:underline; 
     color: black; 
     font-size: 1.25rem;
+    padding: 5px;
+    font-weight: 100;
 }
 
 .fireBilleder{
@@ -131,11 +133,13 @@ aside.fireBillederNyeOl1 {
 
 aside.fireBillederNyeOl1 img{
     width: 100%;
+    border: 5px solid white;
 }
 
 .nyeOl{
     font-size: 1.5rem;
     margin-bottom: 20px;
+    padding: 5px;
 }
 
 .toBilleder{
@@ -150,6 +154,7 @@ aside.fireBillederNyeOl1 img{
 
 .toBilleder1 img{
     width: 100%;
+    border: 5px solid white;
 }
 
 .nytBilled{
@@ -163,6 +168,7 @@ aside.fireBillederNyeOl1 img{
 
 .forsideTekst p{
     margin: 50px 0;
+    font-weight: 100;
 }
 
 .brandBillede{
@@ -175,6 +181,7 @@ aside.fireBillederNyeOl1 img{
     object-fit: cover; /* Sørger for, at billedet fylder containeren uden at blive beskåret */
     padding: 40px;
     background-color: #FFF0F5;
+    border: 15px solid white;
 }
 
 .nyhedsBrev{
@@ -183,13 +190,24 @@ aside.fireBillederNyeOl1 img{
 }
 
 .oveskriftNyhedsbrev{
-    font-size: 4rem;
+    font-size: 5rem;
     padding: 50px;
 }
 
 .skrivMail{
     border: 1px solid black; /* Tykkelse, type og farve af kanten */
     padding: 10px; /* Luft mellem tekst og kant */
+}
+
+.footerTekst{
+    text-decoration: underline;
+    font-size: 4rem;
+    padding: 80px 80px 80px 80px;
+    background-color: #DDE9F1;
+}
+
+.footerLille{
+    font-size: 2rem;
 }
   
   /* Skærmstørrelse mindre eller lig med 1050px - Laptop */
@@ -267,6 +285,15 @@ aside.fireBillederNyeOl1 img{
         margin: 30px 0;
     }
 
+    .footerTekst{
+        font-size: 3rem;
+        padding: 80px 80px 80px 80px;
+    }
+    
+    .footerLille{
+        font-size: 1.5rem;
+    }
+
   }
   
     /* Skærmstørrelse mindre eller lig med 375px - Mobil M*/
@@ -317,9 +344,20 @@ aside.fireBillederNyeOl1 img{
 
   .oveskriftNyhedsbrev{
     font-size: 3rem;
+    padding: 10px;
   }
 
   .nyhedsBrev{
     padding: 30px;
   }
+
+  .footerTekst{
+    font-size: 2.5rem;
+    padding: 40px;
+}
+
+.footerLille{
+    font-size: 1rem;
+}
   
+  }
