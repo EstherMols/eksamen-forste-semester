@@ -1,3 +1,4 @@
+/* Nulstiller siden */
 * {
     padding: 0;
     margin: 0;
@@ -6,10 +7,13 @@
     box-sizing: border-box;
   }
   
+  /* Typografi for hele body */
   body {
     font-family: montserrat, sans-serif;
   }
-  
+ 
+  /* NAVBAR */
+  /* Styling af nav */
   nav {
     background-color: #F7F5F5;
     height: 70px;
@@ -22,26 +26,36 @@
     padding: 0 20px;
   }
   
+  /* Styling af logo */
   nav img {
     height: 70px;
   }
+
+  /* Styling af logo ved hover */
+  nav img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
   
-  
+  /* Styling af ul i nav */
   nav ul {
     display: flex;
     margin-right: 20px;
   }
   
+  /* Stiling af li i nav */
   nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
   }
   
+  /* Styling af a ved hover */
   a:hover {
     text-decoration: underline;
   }
   
+  /* Styling af a */
   nav ul li a {
     color: black;
     font-size: 15px;
@@ -49,20 +63,24 @@
     border-radius: 3px;
   }
 
+  /* Styling af "Webshop" i menulinje */
   nav ul li a.webshop {
     color: white; 
     background-color: #333399; 
   }
   
+  /* Styling af "Webshop" ved hover */
   nav ul li a.webshop:hover {
     background-color: #879AFE; 
     text-decoration: none; 
   }
 
+  /* Skjuler checkbox */
   #check {
     display: none;
   }
   
+  /* Styling af checkbox */
   .checkbtn {
     font-size: 30px;
     color: black;
@@ -70,6 +88,7 @@
     display: none;
   }
   
+  /* Skærmstørrelse mindre eller lig med 1050px */
   @media (max-width: 1050px){
       .checkbtn {
         display: block;
@@ -107,7 +126,7 @@
       }
   }
   
-  
+    /* Skærmstørrelse mindre eller lig med 393px */
   @media (max-width: 393px) {
   
     h1 {
@@ -115,7 +134,7 @@
     }
   }
   
-  
+    /* Skærmstørrelse mindre eller lig med 414px */
   @media (max-width: 414px) {
   
     h1 {
@@ -124,7 +143,7 @@
   
   }
   
-  
+    /* Skærmstørrelse mindre eller lig med 630px */
   @media (max-width: 630px) {
   
     h1 {
