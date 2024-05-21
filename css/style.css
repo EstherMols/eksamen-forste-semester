@@ -10,6 +10,7 @@
   /* Typografi for hele body */
   body {
     font-family: montserrat, sans-serif;
+    line-height: 1.5;
   }
 
   html{
@@ -105,6 +106,10 @@
     font-weight: 100;
 }
 
+.lasmere:hover{
+  color: #879AFE;
+}
+
 .fireBilleder{
     padding: 100px 80px 0px 80px;
 }
@@ -117,6 +122,10 @@
     background-position: center; 
     display: flex;
     flex-direction: column;
+}
+
+.forsideBilledTop .nytBilled{
+  display: none;
 }
 
 /* Stylling af nye øl sektion */
@@ -168,7 +177,7 @@ aside.fireBillederNyeOl1 img{
 
 .forsideTekst p{
     margin: 50px 0;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .brandBillede{
@@ -186,7 +195,7 @@ aside.fireBillederNyeOl1 img{
 
 .nyhedsBrev{
     text-align: center;
-    padding: 100px;
+    padding: 10%;
 }
 
 .oveskriftNyhedsbrev{
@@ -196,19 +205,95 @@ aside.fireBillederNyeOl1 img{
 
 .skrivMail{
     border: 1px solid black; /* Tykkelse, type og farve af kanten */
-    padding: 10px; /* Luft mellem tekst og kant */
+    padding: 10px; 
 }
 
 .footerTekst{
     text-decoration: underline;
     font-size: 4rem;
-    padding: 80px 80px 80px 80px;
-    background-color: #DDE9F1;
+    padding: 80px;
+    background-color: #DDE9F1; 
 }
 
+.footerTekst p:hover{
+  transform: translateX(10px);
+}
+
+.footerLilleTop{
+  margin-top: 80px;
+}
 .footerLille{
     font-size: 2rem;
 }
+
+.instagramIkon{
+  width: 40px;
+  height: auto;
+}
+
+.instagramIkon:hover{
+  transform: scale(1.5, 1.5);
+}
+
+/* EVENTS */
+
+.eventBilledTop{
+  width: 100%;
+}
+.eventBilledTop img{
+  width: 100%;
+  margin-top: 70px;
+}
+
+.eventBoks1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+
+.tekstEvent1{
+  width: 50%;
+  line-height: 2;
+}
+
+.tekstEvent1 p{
+  padding: 0px 80px;
+}
+
+.billedEvent1{
+  width: 50%;
+}
+
+.billedEvent1 img{
+  width: 100%;
+  height: auto;
+}
+
+.eventBoks2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  width: 100%;
+  padding: 0px 80px 0px 80px;
+}
+
+.tekstEvent2{
+  width: 50%;
+  line-height: 2;
+  
+}
+
+.billedEvent2{
+  width: 50%;
+}
+
+.billedEvent2 img{
+  width: 100%;
+  height: auto;
+}
+
+
   
   /* Skærmstørrelse mindre eller lig med 1050px - Laptop */
   @media (max-width: 1050px){
@@ -255,10 +340,14 @@ aside.fireBillederNyeOl1 img{
     .lasmere{
         font-size: 1.1rem;
     }
+
+    .tekstEvent1, .tekstEvent2 {
+      font-size: 1rem;
+    }
     
   }
   
-    /* Skærmstørrelse mindre eller lig med 1px - Tablet  */
+  /* Skærmstørrelse mindre eller lig med 1px - Tablet  */
   @media (max-width: 768px) {
   
     h1 {
@@ -277,7 +366,7 @@ aside.fireBillederNyeOl1 img{
     }
 
     .forsideTekst{
-        padding: 60px 40px 60px 50px;
+        padding: 60px 40px 60px 40px;
         font-size: 1.5rem;
     }
     
@@ -285,6 +374,9 @@ aside.fireBillederNyeOl1 img{
         margin: 30px 0;
     }
 
+    .nyhedsBrev{
+      padding: 8%;
+    }
     .footerTekst{
         font-size: 3rem;
         padding: 80px 80px 80px 80px;
@@ -294,9 +386,37 @@ aside.fireBillederNyeOl1 img{
         font-size: 1.5rem;
     }
 
+    .instagramIkon{
+      width: 30px;
+      height: auto;
+    }
+    .tekstEvent1{
+      width: 100%;
+    }
+    .tekstEvent1 p{
+      padding: 0;
+    }
+    
+    .billedEvent1{
+      width: 100%;
+    }
+
+    .eventBoks1,.eventBoks2 {
+      padding: 60px 40px 0px 40px;
+      flex-wrap: wrap-reverse;
+    }
+
+    .tekstEvent2{
+      width: 100%;
+    }
+    
+    .billedEvent2{
+      width: 100%;
+    }
+
   }
   
-    /* Skærmstørrelse mindre eller lig med 375px - Mobil M*/
+  /* Skærmstørrelse mindre eller lig med 375px - Mobil M*/
   @media (max-width: 425px) {
   
     h1 {
@@ -348,16 +468,37 @@ aside.fireBillederNyeOl1 img{
   }
 
   .nyhedsBrev{
-    padding: 30px;
+    padding: 5%;
   }
 
   .footerTekst{
     font-size: 2.5rem;
     padding: 40px;
-}
-
-.footerLille{
-    font-size: 1rem;
-}
-  
   }
+
+  .footerLille{
+    font-size: 1rem;
+  }
+  .forsideBilledTop .nytBilled{
+    display: flex;
+  }
+  .forsideBilledTop .startBillede{
+    display: none;
+  }
+  .instagramIkon{
+    width: 20px;
+    height: auto;
+  }
+
+  .eventBoks1, .eventBoks2{
+    padding: 40px 30px 4px 30px;
+    flex-wrap: wrap-reverse;
+  }
+
+  .tekstEvent1, .tekstEvent2 p{
+    font-size: 1rem;
+  }
+
+
+    
+}
