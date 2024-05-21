@@ -111,7 +111,7 @@
 }
 
 .fireBilleder{
-    padding: 100px 80px 0px 80px;
+    padding: 20px 80px 0px 80px;
 }
 
 /* Styling af forside billede øverst */
@@ -180,6 +180,17 @@ aside.fireBillederNyeOl1 img{
     font-weight: 300;
 }
 
+.tekstForsideMidtStart{
+  padding: 100px 80px 0px 80px;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.tekstForsideMidtStart p{
+  margin: 50px 0;
+}
+
+
 .brandBillede{
     max-width: 100%;
 }
@@ -242,12 +253,17 @@ aside.fireBillederNyeOl1 img{
 
 /* EVENTS */
 
-.eventBilledTop{
+.eventTopBoks{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   width: 100%;
+  padding: 100px 80px 0px 80px;
 }
-.eventBilledTop img{
-  width: 100%;
-  margin-top: 70px;
+
+.eventTopTekst{
+  width: 50%;
+  font-size: 5rem;
 }
 
 .eventBoks1{
@@ -264,6 +280,7 @@ aside.fireBillederNyeOl1 img{
 
 .tekstEvent1 p{
   padding: 0px 80px;
+  font-size: 1.5rem;
 }
 
 .billedEvent1{
@@ -286,7 +303,7 @@ aside.fireBillederNyeOl1 img{
 .tekstEvent2{
   width: 50%;
   line-height: 2;
-  
+  font-size: 1.5rem;
 }
 
 .billedEvent2{
@@ -298,6 +315,49 @@ aside.fireBillederNyeOl1 img{
   height: auto;
 }
 
+
+/* ALKOHOLFRIE ØL */
+
+.smagBoks{
+  padding: 100px 80px 100px 80px;
+}
+
+.smagTekst{
+  font-size: 3.25rem;
+}
+
+.smage{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-top: 40px;
+}
+.smage p{
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+  width: 100%;
+}
+
+.smage p:hover{
+  color: #879AFE;
+}
+
+.stortBilledBoks{
+  padding: 0px 80px 0px 80px;
+  width: 100%;
+}
+
+.stortBilledeimg img{
+  width: 100%;
+  height: auto;
+  border: 5px solid white;
+}
 
   
   /* Skærmstørrelse mindre eller lig med 1050px - Laptop */
@@ -349,6 +409,28 @@ aside.fireBillederNyeOl1 img{
     .tekstEvent1, .tekstEvent2 {
       font-size: 1rem;
     }
+
+    .eventTopTekst{
+      font-size: 3rem;
+      width: 70%;
+    }
+
+    .tekstForsideMidtStart{
+      padding: 80px 60px 80px 60px;
+      font-weight: 300;
+    }
+
+    .tekstForsideMidtStart p{
+      margin-top: 40px;
+    }
+
+    .smagBoks{
+      padding: 80px 60px 80px 60px;
+    }
+
+    .stortBilledBoks{
+      padding: 0px 60px 0px 60px;
+    }
     
   }
   
@@ -360,7 +442,7 @@ aside.fireBillederNyeOl1 img{
     }      
     
     .fireBilleder{
-        padding: 60px 40px 0px 40px;
+        padding: 0px 40px 0px 40px;
     }
         
     .nyeOl{
@@ -384,7 +466,7 @@ aside.fireBillederNyeOl1 img{
     }
     .footerTekst{
         font-size: 3rem;
-        padding: 80px 80px 80px 80px;
+        padding: 60px 40px 60px 40px;
     }
 
     .footerTekst p{
@@ -423,17 +505,48 @@ aside.fireBillederNyeOl1 img{
       width: 100%;
     }
 
+    .eventTopTekst p{
+      font-size: 4rem;
+    }
+
+    .eventTopBoks{
+      padding: 60px 40px 60px 40px;
+      margin-top: 70px;
+    }
+
+    .tekstForsideMidtStart{
+      padding: 60px 40px 60px 40px;
+      font-weight: 300;
+      font-size: 1.5rem;
+    }
+
+    .tekstForsideMidtStart p{
+      margin-top: 40px;
+    }
+
+    .smagBoks{
+      padding: 60px 40px 60px 40px;
+    }
+
+    .smagTekst{
+      font-size: 2em;
+    }
+
+    .smage{
+      font-size: 1.5rem;
   }
+
+  .stortBilledBoks{
+    padding: 0px 40px 0px 40px;
+  }
+}
   
   /* Skærmstørrelse mindre eller lig med 375px - Mobil M*/
   @media (max-width: 425px) {
-  
-    h1 {
-      padding-top: 27%;
-    }
+
 
     .fireBilleder{
-        padding: 40px 30px 0px 30px;
+        padding: 0px 30px 0px 30px;
     }
 
     .nyeOl{
@@ -482,7 +595,7 @@ aside.fireBillederNyeOl1 img{
 
   .footerTekst{
     font-size: 2.5rem;
-    padding: 40px;
+    padding: 40px 30px 40px 30px;
   }
 
   .footerTekst p{
@@ -504,14 +617,58 @@ aside.fireBillederNyeOl1 img{
   }
 
   .eventBoks1, .eventBoks2{
-    padding: 40px 30px 4px 30px;
+    padding: 40px 30px 40px 30px;
     flex-wrap: wrap-reverse;
   }
 
-  .tekstEvent1, .tekstEvent2 p{
+  .tekstEvent1 p{
     font-size: 1rem;
   }
 
+  .tekstEvent2 p{
+    font-size: 1rem;
+  }
 
-    
+  .eventTopTekst p{
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .eventTopBoks{
+    padding: 40px 30px 40px 30px;
+    margin-top: 70px;
+  }
+
+  .tekstForsideMidtStart{
+    padding: 40px 30px 40px 30px;
+    font-weight: 300;
+    font-size: 1.25rem;
+  }
+
+  .tekstForsideMidtStart p{
+    margin-top: 40px;
+  }
+
+  .smagBoks{
+    padding: 40px 30px 0px 30px;
+  }
+
+  .smagTekst{
+    font-size: 1.5rem;
+  }
+
+  .smage{
+    font-size: 1rem;
+    justify-content: left;
+    flex-direction: column;
+  }
+  
+  .smage p{
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .stortBilledBoks{
+    padding: 0px 30px 0px 30px;
+  }
+   
 }
