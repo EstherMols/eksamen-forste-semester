@@ -213,6 +213,11 @@ aside.fireBillederNyeOl1 img{
     font-size: 4rem;
     padding: 80px;
     background-color: #DDE9F1; 
+    width: 100%;
+}
+
+.footerTekst p{
+  width: 15%;
 }
 
 .footerTekst p:hover{
@@ -381,6 +386,10 @@ aside.fireBillederNyeOl1 img{
         font-size: 3rem;
         padding: 80px 80px 80px 80px;
     }
+
+    .footerTekst p{
+      width: 50%;
+    }
     
     .footerLille{
         font-size: 1.5rem;
@@ -474,6 +483,10 @@ aside.fireBillederNyeOl1 img{
   .footerTekst{
     font-size: 2.5rem;
     padding: 40px;
+  }
+
+  .footerTekst p{
+    width: 70%;
   }
 
   .footerLille{
