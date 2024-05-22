@@ -20,7 +20,7 @@
   /* NAVBAR */
   /* Styling af nav */
   nav {
-    background-color: #ffff;
+    background-color: white;
     height: 70px;
     width: 100%;
     position: fixed; 
@@ -29,8 +29,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    border-bottom: 1px solid black;
-    
+    border-radius: 2px solid #000000;
   }
   
   /* Styling af logo */
@@ -114,7 +113,7 @@
 }
 
 .fireBilleder{
-    padding: 40px 0px;
+    padding: 30px 10px;
 }
 
 /* Styling af forside billede øverst */
@@ -162,6 +161,7 @@ aside.fireBillederNyeOl1 img{
 
 .toBilleder1{
     width: 50%;
+    padding: 40px 10px;
 }
 
 .toBilleder1 img{
@@ -265,6 +265,7 @@ aside.fireBillederNyeOl1 img{
   width: 50%;
   font-size: 5rem;
   margin-bottom: 80px;
+  padding-right: 7px;
 }
 
 .eventTopBoks img{
@@ -285,7 +286,7 @@ aside.fireBillederNyeOl1 img{
 }
 
 .tekstEvent1 p{
-  padding: 0px 80px;
+  padding: 0px 30px;
   font-size: 1.5rem;
 }
 
@@ -310,6 +311,7 @@ aside.fireBillederNyeOl1 img{
   width: 50%;
   line-height: 2;
   font-size: 1.5rem;
+  padding: 20px 30px;
 }
 
 .billedEvent2{
@@ -325,7 +327,8 @@ aside.fireBillederNyeOl1 img{
 /* ALKOHOLFRIE ØL */
 
 .smagBoks{
-  padding: 0px 80px 40px 80px;
+  padding: 40px 80px 40px 80px;
+  background-color: #DDE9F1;
 }
 
 .smagTekst{
@@ -356,7 +359,7 @@ aside.fireBillederNyeOl1 img{
 }
 
 .stortBilledBoks{
-  padding: 0px 80px 0px 80px;
+  padding: 0px 10px 0px 10px;
   width: 100%;
 }
 
@@ -408,20 +411,24 @@ aside.fireBillederNyeOl1 img{
     
     .nyeOl{
         font-size: 1.25rem; 
-        padding: 0px 0px;   
+        padding: 0px 60px;   
     }
     .lasmere{
         font-size: 1.1rem;
     }
 
+    .tekstEvent1{
+      margin-top: 30px;
+    }
+
     .tekstEvent1 p{
       font-size: 1rem;
-      padding: 0px 0px 0px 80px;
+      padding: 3px 15px 0px 15px;
     }
 
     .tekstEvent2{
       font-size: 1rem;
-      padding:  0px 0px 0px;
+      padding:  30px 15px 0px 15px
     }
 
     .eventTopTekst{
@@ -444,11 +451,11 @@ aside.fireBillederNyeOl1 img{
     }
 
     .smagBoks{
-      padding: 80px 60px 0px 60px;
+      padding: 40px 60px 40px 60px
     }
 
     .stortBilledBoks{
-      padding: 30px 60px 0px 60px;
+      padding: 30px 10px 0px 10px;
     }
     
     .footerTekst{
@@ -466,7 +473,15 @@ aside.fireBillederNyeOl1 img{
     .footerTekst p{
       width: 30%;
     }
+
+    .toBilleder1{
+      padding: 10px 10px 0px 10px;
+    }
+
+    .forsideTekst {
+      padding: 10px 80px 0px 80px;
   }
+}
   
   /* Skærmstørrelse mindre eller lig med 1px - Tablet  */
   @media (max-width: 768px) {
@@ -476,7 +491,7 @@ aside.fireBillederNyeOl1 img{
     }      
     
     .fireBilleder{
-        padding: 0px 5px 0px 5px;
+        padding: 0px 10px 0px 10px;
     }
         
     .nyeOl{
@@ -519,10 +534,7 @@ aside.fireBillederNyeOl1 img{
     .tekstEvent1{
       width: 100%;
     }
-    .tekstEvent1 p{
-      padding: 0;
-    }
-    
+
     .billedEvent1{
       width: 100%;
     }
@@ -545,7 +557,7 @@ aside.fireBillederNyeOl1 img{
     }
 
     .eventTopBoks{
-      padding: 70px 5px 30px 5px;
+      padding: 70px 40px 30px 40px;
       margin-top: 70px;
     }
 
@@ -576,7 +588,11 @@ aside.fireBillederNyeOl1 img{
   }
 
   .stortBilledBoks{
-    padding: 0px 40px 0px 40px;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .toBilleder{
+    padding: 0px 0px 0px 0px;
   }
 }
   
@@ -662,10 +678,12 @@ aside.fireBillederNyeOl1 img{
 
   .tekstEvent1 p{
     font-size: 1rem;
+    padding-bottom: 10px;
   }
 
   .tekstEvent2 p{
     font-size: 1rem;
+    padding-bottom: 10px;
   }
 
   .eventTopTekst p{
@@ -674,7 +692,7 @@ aside.fireBillederNyeOl1 img{
   }
 
   .eventTopBoks{
-    padding: 20px 5px 0px 5px;
+    padding: 20px 30px 0px 30px;
   }
 
   .tekstForsideMidtStart{
@@ -688,7 +706,7 @@ aside.fireBillederNyeOl1 img{
   }
 
   .smagBoks{
-    padding: 40px 30px 0px 30px;
+    padding: 20px 30px 20px 30px
   }
 
   .smagTekst{
@@ -707,7 +725,11 @@ aside.fireBillederNyeOl1 img{
     width: 10%;
   }
   .stortBilledBoks{
-    padding: 0px 30px 0px 30px;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .toBilleder1{
+    padding:  0px 10px 10px;
   }
    
 }
