@@ -20,7 +20,7 @@
   /* NAVBAR */
   /* Styling af nav */
   nav {
-    background-color: #F7F5F5;
+    background-color: #ffff;
     height: 70px;
     width: 100%;
     position: fixed; 
@@ -29,6 +29,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+    border-bottom: 1px solid black;
+    
   }
   
   /* Styling af logo */
@@ -99,11 +101,12 @@
 /* FORSIDE */
 /* Styling af læs meere funktion */
 .lasmere{
-    text-decoration:underline; 
     color: black; 
     font-size: 1.25rem;
     padding: 5px;
     font-weight: 100;
+    border-bottom: 2px solid black; /* Tilføjer en streg under teksten */
+    padding-bottom: 2px; /* Justerer afstanden mellem tekst og streg */
 }
 
 .lasmere:hover{
@@ -183,7 +186,7 @@ aside.fireBillederNyeOl1 img{
 .tekstForsideMidtStart{
   padding: 100px 80px 0px 80px;
   font-weight: 300;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .tekstForsideMidtStart p{
@@ -220,26 +223,23 @@ aside.fireBillederNyeOl1 img{
 }
 
 .footerTekst{
-    text-decoration: underline;
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 80px;
     background-color: #DDE9F1; 
     width: 100%;
-}
-
-.footerTekst p{
-  width: 15%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .footerTekst p:hover{
-  transform: translateX(10px);
+  text-decoration: underline;
 }
 
-.footerLilleTop{
-  margin-top: 80px;
-}
 .footerLille{
-    font-size: 2rem;
+    font-size: 1rem;
+    margin: 35px;
 }
 
 .instagramIkon{
@@ -264,6 +264,7 @@ aside.fireBillederNyeOl1 img{
 .eventTopTekst{
   width: 50%;
   font-size: 5rem;
+  margin-bottom: 80px;
 }
 
 .eventBoks1{
@@ -401,18 +402,26 @@ aside.fireBillederNyeOl1 img{
     
     .nyeOl{
         font-size: 1.25rem;
+        
     }
     .lasmere{
         font-size: 1.1rem;
     }
 
-    .tekstEvent1, .tekstEvent2 {
+    .tekstEvent1 p{
       font-size: 1rem;
+      padding: 0px 0px 0px 80px;
+    }
+
+    .tekstEvent2{
+      font-size: 1rem;
+      padding:  0px 0px 0px;
     }
 
     .eventTopTekst{
       font-size: 3rem;
       width: 70%;
+      margin-bottom: 40px;
     }
 
     .tekstForsideMidtStart{
@@ -421,7 +430,7 @@ aside.fireBillederNyeOl1 img{
     }
 
     .tekstForsideMidtStart p{
-      margin-top: 40px;
+      margin-top: 20px;
     }
 
     .smagBoks{
@@ -432,6 +441,25 @@ aside.fireBillederNyeOl1 img{
       padding: 0px 60px 0px 60px;
     }
     
+    .footerTekst{
+      display: block;
+    }
+
+    .footerLille{
+      font-size: 2rem;
+      margin: 0px;
+    }
+
+    .footerLilleTop{
+      margin-top: 80px;
+    }
+    .footerTekst p{
+      width: 30%;
+    }
+
+    .fireBilleder{
+      padding: 80px 60px 0px 60px;
+    }
   }
   
   /* Skærmstørrelse mindre eller lig med 1px - Tablet  */
@@ -447,6 +475,7 @@ aside.fireBillederNyeOl1 img{
         
     .nyeOl{
         font-size: 1.1rem;
+        margin-top: 40px;
     }
     .lasmere{
         font-size: 1rem;
@@ -617,7 +646,7 @@ aside.fireBillederNyeOl1 img{
   }
 
   .eventBoks1, .eventBoks2{
-    padding: 40px 30px 40px 30px;
+    padding: 0px 30px 0px 30px;
     flex-wrap: wrap-reverse;
   }
 
@@ -635,8 +664,7 @@ aside.fireBillederNyeOl1 img{
   }
 
   .eventTopBoks{
-    padding: 40px 30px 40px 30px;
-    margin-top: 70px;
+    padding: 40px 30px 0px 30px;
   }
 
   .tekstForsideMidtStart{
