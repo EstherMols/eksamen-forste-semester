@@ -29,7 +29,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    border-radius: 2px solid #000000;
   }
   
   /* Styling af logo */
@@ -39,7 +38,7 @@
 
   /* Styling af logo ved hover */
   nav img:hover{
-    transform: scale(1.1);
+    border: 1px solid black;
     cursor: pointer;
   }
   
@@ -58,7 +57,8 @@
   
   /* Styling af a ved hover */
   nav ul li a:hover{
-    text-decoration: underline;
+    border: 1px solid black;
+    border-radius: 0px;
   }
   
   /* Styling af a */
@@ -79,9 +79,12 @@
   
   /* Styling af "Webshop" ved hover */
   nav ul li a.webshop:hover {
-    background-color: #879AFE; 
+    background-color: white; 
+    color: black;
     text-decoration: none; 
     border: 0;
+    border: 1px solid black;
+    border-radius: 0px;
   }
 
   /* Skjuler checkbox */
@@ -109,12 +112,10 @@
 }
 
 .lasmere:hover{
-  color: #879AFE;
+  border: 1px solid black;
 }
 
-.fireBilleder{
-    padding: 30px 10px;
-}
+
 
 /* Styling af forside billede øverst */
 .forsideBilledTop{
@@ -132,6 +133,10 @@
 
 /* Stylling af nye øl sektion */
 
+.fireBilleder{
+  padding: 30px 30px;
+}
+
 .fireBillederNyeOl{
     width: 100%;
     display: flex;
@@ -145,6 +150,11 @@ aside.fireBillederNyeOl1 {
 aside.fireBillederNyeOl1 img{
     width: 100%;
     border: 5px solid white;
+}
+
+.fireBillederNyeOl1:hover .lasmere {
+  border: 1px solid #000;
+  border-radius: 0px;
 }
 
 .nyeOl{
@@ -164,6 +174,12 @@ aside.fireBillederNyeOl1 img{
     padding: 40px 10px;
 }
 
+.toBilleder1:hover .lasmere{
+    border: 1px solid #000;
+    border-radius: 0px;
+  }
+
+
 .toBilleder1 img{
     width: 100%;
     border: 5px solid white;
@@ -174,23 +190,23 @@ aside.fireBillederNyeOl1 img{
 }
 
 .forsideTekst{
-    padding: 100px 80px 0px 80px;
-    font-size: 2rem;
+    padding: 0px 30px 0px 30px;
+    font-size: 1.5rem;
 }
 
 .forsideTekst p{
-    margin: 50px 0;
+    margin: 50px 300px;
     font-weight: 300;
 }
 
 .tekstForsideMidtStart{
-  padding: 100px 80px 0px 80px;
+  padding: 0px 30px 0px 30px;
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .tekstForsideMidtStart p{
-  margin: 50px 0;
+  margin: 50px 300px;
 }
 
 
@@ -258,7 +274,7 @@ aside.fireBillederNyeOl1 img{
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
-  padding: 70px 80px 0px 80px;
+  padding: 70px 30px 0px 30px;
 }
 
 .eventTopTekst{
@@ -288,6 +304,7 @@ aside.fireBillederNyeOl1 img{
 .tekstEvent1 p{
   padding: 0px 30px;
   font-size: 1.5rem;
+  text-align: justify;
 }
 
 .billedEvent1{
@@ -312,6 +329,7 @@ aside.fireBillederNyeOl1 img{
   line-height: 2;
   font-size: 1.5rem;
   padding: 20px 30px;
+  text-align: justify;
 }
 
 .billedEvent2{
@@ -351,15 +369,15 @@ aside.fireBillederNyeOl1 img{
   text-decoration: none;
   color: black;
   width: 100%;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
 .smage p:hover{
-  color: #879AFE;
+  border: 1px solid black;
 }
 
 .stortBilledBoks{
-  padding: 0px 10px 0px 10px;
+  padding: 0px 30px 0px 30px;
   width: 100%;
 }
 
@@ -367,6 +385,10 @@ aside.fireBillederNyeOl1 img{
   width: 100%;
   height: auto;
   border: 5px solid white;
+}
+
+.stortBillede:hover .lasmere {
+  border: 1px solid black; 
 }
 
   
@@ -442,12 +464,12 @@ aside.fireBillederNyeOl1 img{
     }
 
     .tekstForsideMidtStart{
-      padding: 80px 60px 80px 60px;
+      padding: 0px 60px 0px 60px;
       font-weight: 300;
     }
 
     .tekstForsideMidtStart p{
-      margin-top: 20px;
+      margin-top: 20px ;
     }
 
     .smagBoks{
@@ -491,7 +513,11 @@ aside.fireBillederNyeOl1 img{
     }      
     
     .fireBilleder{
-        padding: 0px 10px 0px 10px;
+        padding: 0px 20px 0px 10px;
+    }
+
+    aside.fireBillederNyeOl1 {
+      width: 50%;
     }
         
     .nyeOl{
@@ -503,7 +529,7 @@ aside.fireBillederNyeOl1 img{
     }
 
     .forsideTekst{
-        padding: 60px 40px 60px 40px;
+        padding: 0px 40px 0px 40px;
         font-size: 1.5rem;
     }
     
@@ -566,13 +592,14 @@ aside.fireBillederNyeOl1 img{
     }
 
     .tekstForsideMidtStart{
-      padding: 60px 40px 60px 40px;
+      padding: 0px 40px 0px 40px;
       font-weight: 300;
       font-size: 1.5rem;
     }
 
     .tekstForsideMidtStart p{
       margin-top: 40px;
+      margin: 30px 0;
     }
 
     .smagBoks{
@@ -696,7 +723,7 @@ aside.fireBillederNyeOl1 img{
   }
 
   .tekstForsideMidtStart{
-    padding: 40px 30px 40px 30px;
+    padding: 0px 30px 0px 30px;
     font-weight: 300;
     font-size: 1.25rem;
   }
@@ -731,5 +758,5 @@ aside.fireBillederNyeOl1 img{
   .toBilleder1{
     padding:  0px 10px 10px;
   }
-   
+  
 }
