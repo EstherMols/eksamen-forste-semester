@@ -58,7 +58,7 @@
   }
   
   /* Styling af a ved hover */
-  a:hover {
+  nav ul li a:hover{
     text-decoration: underline;
   }
   
@@ -114,7 +114,7 @@
 }
 
 .fireBilleder{
-    padding: 20px 80px 0px 80px;
+    padding: 40px 0px;
 }
 
 /* Styling af forside billede øverst */
@@ -151,7 +151,7 @@ aside.fireBillederNyeOl1 img{
 .nyeOl{
     font-size: 1.5rem;
     margin-bottom: 20px;
-    padding: 5px;
+    padding: 0px 80px;
 }
 
 .toBilleder{
@@ -258,13 +258,18 @@ aside.fireBillederNyeOl1 img{
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
-  padding: 100px 80px 0px 80px;
+  padding: 70px 80px 0px 80px;
 }
 
 .eventTopTekst{
   width: 50%;
   font-size: 5rem;
   margin-bottom: 80px;
+}
+
+.eventTopBoks img{
+  width: 50%;
+  height: auto;
 }
 
 .eventBoks1{
@@ -298,7 +303,7 @@ aside.fireBillederNyeOl1 img{
   flex-wrap: wrap;
   flex-direction: row-reverse;
   width: 100%;
-  padding: 0px 80px 0px 80px;
+  padding: 0px 0px 0px 0px;
 }
 
 .tekstEvent2{
@@ -320,7 +325,7 @@ aside.fireBillederNyeOl1 img{
 /* ALKOHOLFRIE ØL */
 
 .smagBoks{
-  padding: 100px 80px 100px 80px;
+  padding: 0px 80px 40px 80px;
 }
 
 .smagTekst{
@@ -337,12 +342,13 @@ aside.fireBillederNyeOl1 img{
   font-size: 2rem;
   font-weight: 100;
   margin-top: 40px;
+
 }
 .smage p{
   text-decoration: none;
   color: black;
-  text-decoration: underline;
   width: 100%;
+  border-bottom: 2px solid black;
 }
 
 .smage p:hover{
@@ -397,12 +403,12 @@ aside.fireBillederNyeOl1 img{
         left: 0;
       }
       .fireBilleder{
-        padding: 80px 60px 0px 60px;
+        padding: 30px 10px 0px 10px;
     }
     
     .nyeOl{
-        font-size: 1.25rem;
-        
+        font-size: 1.25rem; 
+        padding: 0px 0px;   
     }
     .lasmere{
         font-size: 1.1rem;
@@ -420,8 +426,12 @@ aside.fireBillederNyeOl1 img{
 
     .eventTopTekst{
       font-size: 3rem;
-      width: 70%;
+      width: 50%;
       margin-bottom: 40px;
+    }
+
+    .eventTopBoks{
+      padding: 70px 0px 0px 60px;
     }
 
     .tekstForsideMidtStart{
@@ -434,11 +444,11 @@ aside.fireBillederNyeOl1 img{
     }
 
     .smagBoks{
-      padding: 80px 60px 80px 60px;
+      padding: 80px 60px 0px 60px;
     }
 
     .stortBilledBoks{
-      padding: 0px 60px 0px 60px;
+      padding: 30px 60px 0px 60px;
     }
     
     .footerTekst{
@@ -456,10 +466,6 @@ aside.fireBillederNyeOl1 img{
     .footerTekst p{
       width: 30%;
     }
-
-    .fireBilleder{
-      padding: 80px 60px 0px 60px;
-    }
   }
   
   /* Skærmstørrelse mindre eller lig med 1px - Tablet  */
@@ -470,7 +476,7 @@ aside.fireBillederNyeOl1 img{
     }      
     
     .fireBilleder{
-        padding: 0px 40px 0px 40px;
+        padding: 0px 5px 0px 5px;
     }
         
     .nyeOl{
@@ -522,7 +528,7 @@ aside.fireBillederNyeOl1 img{
     }
 
     .eventBoks1,.eventBoks2 {
-      padding: 60px 40px 0px 40px;
+      padding: 60px 5px 0px 5px;
       flex-wrap: wrap-reverse;
     }
 
@@ -535,12 +541,16 @@ aside.fireBillederNyeOl1 img{
     }
 
     .eventTopTekst p{
-      font-size: 4rem;
+      font-size: 3rem;
     }
 
     .eventTopBoks{
-      padding: 60px 40px 60px 40px;
+      padding: 70px 5px 30px 5px;
       margin-top: 70px;
+    }
+
+    .eventTopBoks img{
+      height: 50%;
     }
 
     .tekstForsideMidtStart{
@@ -575,7 +585,7 @@ aside.fireBillederNyeOl1 img{
 
 
     .fireBilleder{
-        padding: 00px 30px 0px 30px;
+        padding: 0px 5px 0px 5px;
     }
 
     .nyeOl{
@@ -601,7 +611,7 @@ aside.fireBillederNyeOl1 img{
     }
 
     .forsideTekst{
-        padding: 40px 30px 4px 30px;
+        padding: 5px 30px 5px 30px;
         font-size: 1.25rem;
     }
     
@@ -646,7 +656,7 @@ aside.fireBillederNyeOl1 img{
   }
 
   .eventBoks1, .eventBoks2{
-    padding: 0px 30px 0px 30px;
+    padding: 0px 5px 0px 5px;
     flex-wrap: wrap-reverse;
   }
 
@@ -659,12 +669,12 @@ aside.fireBillederNyeOl1 img{
   }
 
   .eventTopTekst p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 100%;
   }
 
   .eventTopBoks{
-    padding: 40px 30px 0px 30px;
+    padding: 20px 5px 0px 5px;
   }
 
   .tekstForsideMidtStart{
@@ -694,6 +704,7 @@ aside.fireBillederNyeOl1 img{
   .smage p{
     text-align: left;
     margin-bottom: 20px;
+    width: 10%;
   }
   .stortBilledBoks{
     padding: 0px 30px 0px 30px;
