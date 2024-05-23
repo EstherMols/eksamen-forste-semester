@@ -71,20 +71,16 @@
 
   /* Styling af "Webshop" i menulinje */
   nav ul li a.webshop {
-    color: white; 
-    background-color: #333399; 
-    border-radius: 0;
+    border: 1px solid black;
+    border-radius: 1px;
 
   }
   
   /* Styling af "Webshop" ved hover */
   nav ul li a.webshop:hover {
-    background-color: white; 
-    color: black;
+    background-color: black;
+    color: white;
     text-decoration: none; 
-    border: 0;
-    border: 1px solid black;
-    border-radius: 0px;
   }
 
   /* Skjuler checkbox */
@@ -107,8 +103,10 @@
     font-size: 1.25rem;
     padding: 5px;
     font-weight: 100;
-    border-bottom: 2px solid black; /* Tilføjer en streg under teksten */
+    border-bottom: 1px solid black; /* Tilføjer en streg under teksten */
     padding-bottom: 2px; /* Justerer afstanden mellem tekst og streg */
+    display: inline-block; /* Sørger for, at marginen anvendes korrekt */
+    margin-bottom: 10px; /* Juster denne værdi til at få den ønskede mængde luft */
 }
 
 .lasmere:hover{
@@ -149,7 +147,7 @@ aside.fireBillederNyeOl1 {
 
 aside.fireBillederNyeOl1 img{
     width: 100%;
-    border: 5px solid white;
+    border: 1px solid white;
 }
 
 .fireBillederNyeOl1:hover .lasmere {
@@ -160,7 +158,6 @@ aside.fireBillederNyeOl1 img{
 .nyeOl{
     font-size: 1.5rem;
     margin-bottom: 20px;
-    padding: 0px 80px;
 }
 
 .toBilleder{
@@ -171,7 +168,6 @@ aside.fireBillederNyeOl1 img{
 
 .toBilleder1{
     width: 50%;
-    padding: 40px 10px;
 }
 
 .toBilleder1:hover .lasmere{
@@ -182,7 +178,7 @@ aside.fireBillederNyeOl1 img{
 
 .toBilleder1 img{
     width: 100%;
-    border: 5px solid white;
+    border: 1px solid white;
 }
 
 .nytBilled{
@@ -225,17 +221,18 @@ aside.fireBillederNyeOl1 img{
 
 .nyhedsBrev{
     text-align: center;
-    padding: 10%;
+    padding: 100px;
 }
 
 .oveskriftNyhedsbrev{
     font-size: 5rem;
-    padding: 50px;
 }
 
 .skrivMail{
     border: 1px solid black; /* Tykkelse, type og farve af kanten */
     padding: 10px; 
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .footerTekst{
@@ -344,9 +341,15 @@ aside.fireBillederNyeOl1 img{
 
 /* ALKOHOLFRIE ØL */
 
+.eventTopTekstside2{
+  color: #63A468;
+}
+
+
+
 .smagBoks{
   padding: 40px 80px 40px 80px;
-  background-color: #DDE9F1;
+  background-color: #DEF8DC;
 }
 
 .smagTekst{
@@ -384,7 +387,7 @@ aside.fireBillederNyeOl1 img{
 .stortBilledeimg img{
   width: 100%;
   height: auto;
-  border: 5px solid white;
+  border: 2px solid white;
 }
 
 .stortBillede:hover .lasmere {
@@ -428,12 +431,12 @@ aside.fireBillederNyeOl1 img{
         left: 0;
       }
       .fireBilleder{
-        padding: 30px 10px 0px 10px;
+        padding: 30px 15px 0px 15px;
     }
     
     .nyeOl{
         font-size: 1.25rem; 
-        padding: 0px 60px;   
+        padding: 0px 10px;   
     }
     .lasmere{
         font-size: 1.1rem;
@@ -477,7 +480,7 @@ aside.fireBillederNyeOl1 img{
     }
 
     .stortBilledBoks{
-      padding: 30px 10px 0px 10px;
+      padding: 30px 15px 0px 15px;
     }
     
     .footerTekst{
@@ -496,10 +499,6 @@ aside.fireBillederNyeOl1 img{
       width: 30%;
     }
 
-    .toBilleder1{
-      padding: 10px 10px 0px 10px;
-    }
-
     .forsideTekst {
       padding: 10px 80px 0px 80px;
   }
@@ -513,7 +512,7 @@ aside.fireBillederNyeOl1 img{
     }      
     
     .fireBilleder{
-        padding: 0px 20px 0px 10px;
+        padding: 0px 10px 0px 10px;
     }
 
     aside.fireBillederNyeOl1 {
@@ -538,11 +537,11 @@ aside.fireBillederNyeOl1 img{
     }
 
     .nyhedsBrev{
-      padding: 8%;
+      padding: 80px;
     }
     .footerTekst{
         font-size: 3rem;
-        padding: 60px 40px 60px 40px;
+        padding: 60px 10px 60px 10px;
     }
 
     .footerTekst p{
@@ -618,8 +617,9 @@ aside.fireBillederNyeOl1 img{
     padding: 0px 10px 0px 10px;
   }
 
-  .toBilleder{
-    padding: 0px 0px 0px 0px;
+  .skrivMail{
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
   
@@ -628,7 +628,7 @@ aside.fireBillederNyeOl1 img{
 
 
     .fireBilleder{
-        padding: 0px 5px 0px 5px;
+        padding: 10px 10px 10px 10px;
     }
 
     .nyeOl{
@@ -663,7 +663,7 @@ aside.fireBillederNyeOl1 img{
     }
 
     .brandBilledeimg {
-        padding: 20px;
+        padding: 10px 0px 10px 0px;
   }
 
   .oveskriftNyhedsbrev{
@@ -672,12 +672,12 @@ aside.fireBillederNyeOl1 img{
   }
 
   .nyhedsBrev{
-    padding: 5%;
+    padding: 60px;
   }
 
   .footerTekst{
     font-size: 2.5rem;
-    padding: 40px 30px 40px 30px;
+    padding: 20px 10px 20px 10px;
   }
 
   .footerTekst p{
@@ -755,8 +755,9 @@ aside.fireBillederNyeOl1 img{
     padding: 0px 10px 0px 10px;
   }
 
-  .toBilleder1{
-    padding:  0px 10px 10px;
+  .skrivMail{
+    margin-left: 60px;
+    margin-right: 60px;
   }
   
 }
