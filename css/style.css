@@ -21,7 +21,7 @@
   /* Styling af nav */
   nav {
     background-color: white;
-    height: 70px;
+    height: 80px;
     width: 100%;
     position: fixed; 
     top: 0; 
@@ -38,7 +38,6 @@
 
   /* Styling af logo ved hover */
   nav img:hover{
-    border: 1px solid black;
     cursor: pointer;
   }
   
@@ -94,6 +93,10 @@
     color: black;
     cursor: pointer;
     display: none;
+  }
+
+  .logoBillede{
+    margin-top: 10px;
   }
 
 /* FORSIDE */
@@ -271,14 +274,16 @@ aside.fireBillederNyeOl1 img{
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
-  padding: 70px 30px 0px 30px;
+  padding: 80px 30px 0px 30px;
 }
 
 .eventTopTekst{
   width: 50%;
-  font-size: 5rem;
+  font-size: 4rem;
   margin-bottom: 80px;
   padding-right: 7px;
+  color: #879AFE;
+
 }
 
 .eventTopBoks img{
@@ -342,14 +347,14 @@ aside.fireBillederNyeOl1 img{
 /* ALKOHOLFRIE ØL */
 
 .eventTopTekstside2{
-  color: #63A468;
+  color: #333399;
 }
 
 
 
 .smagBoks{
   padding: 40px 80px 40px 80px;
-  background-color: #DEF8DC;
+  background-color: #E0FFFF;
 }
 
 .smagTekst{
@@ -393,6 +398,53 @@ aside.fireBillederNyeOl1 img{
 .stortBillede:hover .lasmere {
   border: 1px solid black; 
 }
+
+/* Alkoholfri Øl side */
+
+summary {
+  background-color: #f1f1f1;
+  color: #000;
+  cursor: pointer;
+  padding: 10px;
+  width: auto;
+  border: none;
+  text-align: left;
+  font-size: 18px;
+  list-style: none; /* Fjern standard pil */
+}
+
+olSideTekst{
+  width: 50%;
+}
+
+summary::-webkit-details-marker {
+  display: none; 
+}
+
+details[open] summary:after {
+  content: "↑";
+  float: right;
+}
+
+summary:after {
+  content: "↓";
+  float: right;
+}
+
+details > p {
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+.beskrivelseOlBoks{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 80px 15px 10px 15px;
+}
+
+
 
   
   /* Skærmstørrelse mindre eller lig med 1050px - Laptop */
@@ -463,7 +515,7 @@ aside.fireBillederNyeOl1 img{
     }
 
     .eventTopBoks{
-      padding: 70px 0px 0px 60px;
+      padding: 80px 0px 0px 60px;
     }
 
     .tekstForsideMidtStart{
@@ -521,7 +573,7 @@ aside.fireBillederNyeOl1 img{
         
     .nyeOl{
         font-size: 1.1rem;
-        margin-top: 40px;
+        margin-top: 30px;
     }
     .lasmere{
         font-size: 1rem;
@@ -582,8 +634,7 @@ aside.fireBillederNyeOl1 img{
     }
 
     .eventTopBoks{
-      padding: 70px 40px 30px 40px;
-      margin-top: 70px;
+      padding: 80px 10px 0px 10px;
     }
 
     .eventTopBoks img{
@@ -719,7 +770,7 @@ aside.fireBillederNyeOl1 img{
   }
 
   .eventTopBoks{
-    padding: 20px 30px 0px 30px;
+    padding: 80px 10px 0px 10px;
   }
 
   .tekstForsideMidtStart{
