@@ -398,7 +398,7 @@ aside.fireBillederNyeOl1 img{
   border: 1px solid black; 
 }
 
-/* Alkoholfri Øl side */
+/* ALKOHOLFRIE ØL SIDE */
 
 .tekstBokseffekt1 {
   background-color: white;
@@ -483,6 +483,37 @@ olSideTekst{
   width: 50%;
   padding: 15px 100px 0px 10px;
 }
+
+/* SMAGSTEST */
+.smagstestTopBoks{
+  padding: 80px 15px 10px 15px;
+  font-size: 6rem;
+  width: 50%;
+  color: #879AFE
+}
+
+.smagstestTopBoks p{
+  font-size: 2rem;
+  color: #333399;
+}
+
+.smagstestCitater{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 3rem;
+  padding: 15px 15px 15px 15px;
+}
+
+.smagstestCitaterHøjre{
+  width: 100%;
+  padding: 0px 1000px 50px 0px;
+}
+
+.smagstestCitaterVenstre{
+  width: 100%
+  padding: 0px 0px 50px 1000px;
+}
+
 
 
   
