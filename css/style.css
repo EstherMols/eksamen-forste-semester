@@ -479,6 +479,11 @@ olSideTekst{
   color: #8BAADF;
 }
 
+.paleAleTekst{
+  width: 50%;
+  padding: 15px 100px 0px 10px;
+}
+
 
   
   /* Skærmstørrelse mindre eller lig med 1050px - Laptop */
@@ -598,7 +603,19 @@ olSideTekst{
     width: 40%;
     padding: 15px;
   }
+  .beskrivelseOlBoks img{
+    height: 535px;
+  }
 
+  .tekstBoksEffektOverste {
+    padding: 50px 15px 0px 0px;
+  }
+
+  .paleAleTekst{
+    font-size: 4rem;
+    padding: 10px 100px 0px 10px;
+    width: 50%;
+  }
 }
   
   /* Skærmstørrelse mindre eller lig med 1px - Tablet  */
@@ -740,6 +757,12 @@ olSideTekst{
 
   .beskrivelseOlBoks{
     padding: 80px 10px 0px 10px;
+  }
+
+  .paleAleTekst{
+    font-size: 2rem;
+    padding: 10px 100px 0px 10px;
+    width: 50%;
   }
 
   
@@ -894,6 +917,11 @@ olSideTekst{
     font-size: 2rem;
     width: 50%;
     padding: 15px;
+  }
+
+  .paleAleTekst{
+    font-size: 2rem;
+    padding: 10px;
   }
 
 }
