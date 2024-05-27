@@ -414,9 +414,6 @@ aside.fireBillederNyeOl1 img{
   border-top: 1px solid black;;
 }
 
-olSideTekst{
-  width: 50%;
-}
 
 .tekstBokseffekt1::-webkit-details-marker {
   display: none; 
@@ -454,8 +451,12 @@ olSideTekst{
   width: 50%;
   line-height: 2;
   font-size: 1rem;
-  padding: 0px 0px 0px 15px;
+  padding: 0px 15px 0px 15px;
   flex-direction: row-reverse;
+}
+
+.olSideTekst p{
+  padding-bottom: 10px;
 }
 
 .tekstBoksEffektOverste{
@@ -473,7 +474,7 @@ olSideTekst{
 .tekstTilSideHøjre{
   font-size: 5rem;
   text-align: left;
-  width: 30%;
+  width: 50%;
   padding: 30px;
   font-weight: 300;
   color: #8BAADF;
@@ -484,7 +485,13 @@ olSideTekst{
   padding: 15px 100px 0px 10px;
 }
 
+.tekstTilSideHøjreAlkoholfrieOL{
+  width: 50%;
+
+}
+
 /* SMAGSTEST */
+/* Justering af overskrift og tekst dertil */
 .smagstestTopBoks{
   padding: 80px 15px 10px 15px;
   font-size: 6rem;
@@ -492,31 +499,49 @@ olSideTekst{
   color: #879AFE
 }
 
-.smagstestTopBoks p{
-  font-size: 2rem;
-  color: #333399;
+.smagstestTopBoks h1{
+  font-weight: 500;
 }
 
+/* Styling af tekst */
+.smagstestTopBoks p{
+  font-size: 2rem;
+  color: black;
+  padding-bottom: 100px;
+}
+
+/* Styling af container til citater */
 .smagstestCitater{
   display: flex;
   flex-wrap: wrap;
   font-size: 3rem;
-  padding: 15px 15px 15px 15px;
-}
-
-.smagstestCitaterHøjre{
+  padding: 15px 15px 200px 15px;
   width: 100%;
-  padding: 0px 1000px 50px 0px;
+  background-color: #FFF0F5;
 }
 
+/* Styling af citater til højre */
+.smagstestCitaterHøjre{
+  padding: 0px 800px 50px 15px;
+  color: #8BAADF;
+}
+
+/* Styling af citater til venstre */
 .smagstestCitaterVenstre{
-  width: 100%
-  padding: 0px 0px 50px 1000px;
+  padding: 10px 15px 50px 800px;
+  color: #333399;
 }
 
+/* Styling af billede i bunden */
+.smagstestBillede img{
+  width: 100%;
+  height: auto;
+}
 
+.tekstBoksEffektPils{
+  padding: 50px 15px 0px 0px;
+}
 
-  
   /* Skærmstørrelse mindre eller lig med 1050px - Laptop */
   @media (max-width: 1050px){
       .checkbtn {
@@ -647,6 +672,24 @@ olSideTekst{
     padding: 10px 100px 0px 10px;
     width: 50%;
   }
+
+  .smagstestTopBoks{
+    padding: 80px 15px 10px 15px;
+    font-size: 5rem;
+    width: 80%;
+  }
+  
+  
+  /* Styling af citater til højre */
+  .smagstestCitaterHøjre{
+    padding: 0px 200px 50px 0px;
+  }
+  
+  /* Styling af citater til venstre */
+  .smagstestCitaterVenstre{
+    padding: 10px 15px 10px 200px;
+  }
+  
 }
   
   /* Skærmstørrelse mindre eller lig med 1px - Tablet  */
@@ -796,8 +839,20 @@ olSideTekst{
     width: 50%;
   }
 
-  
+  .smagstestTopBoks{
+    padding: 80px 10px 10px 10px;
+    font-size: 3.5rem;
+    width: 100%;
+  }
 
+  .smagstestTopBoks p{
+    font-size: 1.5rem;
+  }
+  
+  .smagstestCitater{
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+  }
 }
   
   /* Skærmstørrelse mindre eller lig med 375px - Mobil M*/
@@ -954,5 +1009,34 @@ olSideTekst{
     font-size: 2rem;
     padding: 10px;
   }
+
+  .smagstestTopBoks{
+    padding: 80px 10px 10px 10px;
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .smagstestTopBoks p{
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+  }
+  
+  .smagstestCitater{
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+  }
+
+  .smagstestCitaterHøjre{
+    padding: 10px 50px 30px 10px;
+  }
+
+  .smagstestCitaterVenstre{
+    padding: 10px 10px 30px 50px;
+  }
+
+    .overskriftOl{
+      padding-bottom: 10px;
+    }
+
 
 }

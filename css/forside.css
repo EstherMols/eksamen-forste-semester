@@ -11,30 +11,53 @@
   body {
     font-family: montserrat, sans-serif;
     color: black;
-    font-size: 5rem;
+    font-size: 3rem;
     justify-content: space-around;
     text-align:center;
-
+    padding: 30px;
   }
 
-    html{
-    font-size: 16px;
+  html{
+  font-size: 16px;
   }
 
   main{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 100%;
-    background-color: #DDE9F1;
+    height: auto;
   }
 
   section{
     width: 50%;
     flex-direction: row;
-    padding: 180px;
-    border: 5px solid #FF6949;
+    padding: 200px;
+    border: 5px solid white;
     height: auto;
+  }
+
+  .forside{
+    background-image: url(/img/velkommen/eksamen-12.webp);
+    background-position: center;
+    background-size: contain;
+  }
+
+  .event{
+    background-image: url(/img/velkommen/eksamen-10-2.webp);
+    background-position: center;
+    background-size: contain;
+  }
+
+  .webshop{
+    background-image: url(/img/velkommen/eksamen-9-2.webp);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .omos{
+    background-image: url(/img/velkommen/eksamen-11-2.webp);
+    background-position: center;
+    background-size: cover;
   }
 
   section a{
@@ -42,13 +65,18 @@
     color: black;
   }
 
+  section p{
+    background-color: rgb(255, 255, 255);
+  }
+
   section a:active{
     text-decoration: none; 
   }
 
-  section a:hover{
-    text-decoration: underline; 
-  }
+ p:hover{
+  background-color: black;
+  color: white;
+ }
 
   @media (max-width: 1299px) {
     body{
@@ -71,6 +99,18 @@
     }
     section{
       width: 100%;
+    }
+
+    .forside{
+      margin-bottom: 30px;
+    }
+
+    .webshop{
+      margin-bottom: 30px;
+    }
+
+    .event{
+      margin-bottom: 30px;
     }
   }
 
