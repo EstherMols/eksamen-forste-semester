@@ -349,8 +349,6 @@ aside.fireBillederNyeOl1 img{
   color: #333399;
 }
 
-
-
 .smagBoks{
   padding: 40px 80px 40px 80px;
   background-color: #E0FFFF;
@@ -496,7 +494,7 @@ aside.fireBillederNyeOl1 img{
   padding: 80px 15px 10px 15px;
   font-size: 6rem;
   width: 50%;
-  color: #879AFE
+  color: #879AFE;
 }
 
 .smagstestTopBoks h1{
@@ -518,6 +516,7 @@ aside.fireBillederNyeOl1 img{
   padding: 15px 15px 200px 15px;
   width: 100%;
   background-color: #FFF0F5;
+  margin-bottom: 15px;
 }
 
 /* Styling af citater til højre */
@@ -541,6 +540,11 @@ aside.fireBillederNyeOl1 img{
 .tekstBoksEffektPils{
   padding: 50px 15px 0px 0px;
 }
+
+.smagstestCitater{
+  padding: 15px;
+}
+
 
   /* Skærmstørrelse mindre eller lig med 1050px - Laptop */
   @media (max-width: 1050px){
@@ -853,6 +857,7 @@ aside.fireBillederNyeOl1 img{
     font-size: 1.5rem;
     padding-bottom: 30px;
   }
+
 }
   
   /* Skærmstørrelse mindre eller lig med 375px - Mobil M*/
