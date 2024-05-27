@@ -248,6 +248,10 @@ aside.fireBillederNyeOl1 img{
     justify-content: space-between;
 }
 
+.footerTekst a{
+  color: #000;
+}
+
 .footerTekst p:hover{
   text-decoration: underline;
 }
@@ -515,7 +519,6 @@ aside.fireBillederNyeOl1 img{
   font-size: 3rem;
   padding: 15px 15px 200px 15px;
   width: 100%;
-  background-color: #FFF0F5;
   margin-bottom: 15px;
 }
 
@@ -523,12 +526,14 @@ aside.fireBillederNyeOl1 img{
 .smagstestCitaterHøjre{
   padding: 0px 800px 50px 15px;
   color: #8BAADF;
+  text-transform: uppercase;
 }
 
 /* Styling af citater til venstre */
 .smagstestCitaterVenstre{
   padding: 10px 15px 50px 800px;
   color: #333399;
+  text-transform: uppercase;
 }
 
 /* Styling af billede i bunden */
@@ -543,6 +548,44 @@ aside.fireBillederNyeOl1 img{
 
 .smagstestCitater{
   padding: 15px;
+}
+
+/* OM OS */
+
+/* Styling af boks øverst */
+.omosTopBoks{
+  padding: 150px 150px 150px 150px;
+  background-image: url(/img/velkommen/eksamen-11-2.webp);
+  color: #333399;
+}
+
+.omosTopBoks p{
+  font-size: 3rem;
+  background-color: rgba(248, 248, 248, 0.8);
+}
+
+.omosMidtBoks {
+  padding: 150px 200px 0px 200px;
+}
+
+.omosMidtBoks p{
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #333399;
+}
+
+.omosMidtBoks li{
+  list-style-type:decimal;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #333399;
+}
+
+.fedSkrift {
+  font-weight: 600;
 }
 
 
@@ -693,8 +736,23 @@ aside.fireBillederNyeOl1 img{
   .smagstestCitaterVenstre{
     padding: 10px 15px 10px 200px;
   }
+
+  .omosTopBoks p{
+    font-size: 2rem;
+  }
+
+  .omosMidtBoks{
+    padding: 100px 100px 0px 100px;
+  }
+
+  .omosMidtBoks p{
+    font-size: 1.5rem;
+  }
   
-}
+  .omosMidtBoks li{
+    font-size: 1.5rem;
+  }
+
   
   /* Skærmstørrelse mindre eller lig med 1px - Tablet  */
   @media (max-width: 768px) {
@@ -858,6 +916,24 @@ aside.fireBillederNyeOl1 img{
     padding-bottom: 30px;
   }
 
+  .omosTopBoks{
+    padding: 180px 50px 100px 50px;
+    font-size: 1.5rem;
+  }
+
+  .omosMidtBoks{
+    padding: 50px 50px 0px 50px;
+  }
+
+  .omosMidtBoks p{
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+
+  .omosMidtBoks li{
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
 }
   
   /* Skærmstørrelse mindre eller lig med 375px - Mobil M*/
@@ -1039,9 +1115,23 @@ aside.fireBillederNyeOl1 img{
     padding: 10px 10px 30px 50px;
   }
 
-    .overskriftOl{
+  .overskriftOl{
       padding-bottom: 10px;
-    }
+  }
 
+  .omosTopBoks{
+      padding: 180px 20px 100px 20px;
+  }
 
-}
+  .omosTopBoks p{
+    font-size: 1.3rem;
+  }
+
+  .omosMidtBoks{
+    padding: 15px 15px 15px 15px;
+  }
+
+  .omosMidtBoks li{
+    margin-left: 30px;
+  }
+  }
