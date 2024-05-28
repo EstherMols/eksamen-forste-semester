@@ -516,7 +516,7 @@ aside.fireBillederNyeOl1 img{
 .smagstestCitater{
   display: flex;
   flex-wrap: wrap;
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 15px 15px 200px 15px;
   width: 100%;
   margin-bottom: 15px;
@@ -752,6 +752,7 @@ aside.fireBillederNyeOl1 img{
   .omosMidtBoks li{
     font-size: 1.5rem;
   }
+}
 
   
   /* Skærmstørrelse mindre eller lig med 1px - Tablet  */
