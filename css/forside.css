@@ -17,10 +17,12 @@
     padding: 30px;
   }
 
+  /* Skriftstørrelse */
   html{
   font-size: 16px;
   }
 
+  /* Styling af main */
   main{
     display: flex;
     flex-wrap: wrap;
@@ -28,6 +30,7 @@
     height: auto;
   }
 
+  /* Styling af sektion */
   section{
     width: 50%;
     flex-direction: row;
@@ -36,43 +39,51 @@
     height: auto;
   }
 
+  /* Styling af forside class */
   .forside{
     background-image: url(/img/velkommen/eksamen-12.webp);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
   }
 
+  /* Styling af event class */
   .event{
     background-image: url(/img/velkommen/eksamen-10-2.webp);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
   }
 
+  /* Styling af webshop class */
   .webshop{
     background-image: url(/img/velkommen/eksamen-9-2.webp);
     background-position: center;
     background-size: cover;
   }
 
+  /* Styling af omos class */
   .omos{
     background-image: url(/img/velkommen/eksamen-11-2.webp);
     background-position: center;
     background-size: cover;
   }
 
+  /* Styling af a */
   section a{
     text-decoration: none; 
     color: black;
   }
 
+  /* Styling af p */
   section p{
     background-color: #DDE9F1; 
   }
 
+  /* Styling af a ved  */
   section a:active{
     text-decoration: none; 
   }
 
+  /* Styling af p ved hover */
  p:hover{
   background-color: black;
   color: white;
@@ -81,6 +92,9 @@
   @media (max-width: 1299px) {
     body{
         font-size: 4rem;
+    }
+    section{
+      width: 50%;
     }
   }
 
@@ -91,6 +105,7 @@
     section{
         width: 50%;
     }
+
   }
 
   @media (max-width: 768px) {

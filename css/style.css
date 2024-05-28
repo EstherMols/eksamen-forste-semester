@@ -95,6 +95,7 @@
     display: none;
   }
 
+  /* Styling logo */
   .logoBillede{
     margin-top: 10px;
   }
@@ -112,6 +113,7 @@
     margin-bottom: 10px; 
 }
 
+/* Læs mere ved hover */
 .lasmere:hover{
   border: 1px solid black;
 }
@@ -127,12 +129,12 @@
     flex-direction: column;
 }
 
+/* Fjerne nyt billede ved standard skærmstørrelse */
 .forsideBilledTop .nytBilled{
   display: none;
 }
 
 /* Stylling af nye øl sektion */
-
 .fireBilleder{
   padding: 30px 30px;
 }
@@ -183,60 +185,71 @@ aside.fireBillederNyeOl1 img{
     border: 1px solid white;
 }
 
+/* Fjerne nyt billede ved denne skærmstørrelse */
 .nytBilled{
     display: none;
 }
 
+/* Styiling af beholder med forside tekst */
 .forsideTekst{
     padding: 0px 30px 0px 30px;
     font-size: 1.5rem;
 }
 
+/* Styling af p-tag i beholder*/
 .forsideTekst p{
     margin: 50px 300px;
     font-weight: 300;
 }
 
+/* Styling af beholder med midt tekst */
 .tekstForsideMidtStart{
   padding: 0px 30px 0px 30px;
   font-weight: 300;
   font-size: 1.5rem;
 }
 
+/* Styling af p-tag i forsidetekst beholder */
 .tekstForsideMidtStart p{
   margin: 50px 300px;
 }
 
-
+/* Styling af billede beholder */
 .brandBillede{
     max-width: 100%;
 }
 
+/* Styling af imng i beholder */
 .brandBilledeimg {
-    width: 100%; /* Sørger for, at billedet fylder hele containerens bredde */
-    height: auto; /* Bevarer billedets proportioner */
-    object-fit: cover; /* Sørger for, at billedet fylder containeren uden at blive beskåret */
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
     padding: 40px;
     background-color: #FFF0F5;
     border: 15px solid white;
 }
 
+/* STYLING AF FOOTER SEKTION */
+/* Styling af tekst beholder*/
 .nyhedsBrev{
     text-align: center;
     padding: 100px;
 }
 
+/* Styling af overskrift */
 .oveskriftNyhedsbrev{
     font-size: 5rem;
 }
 
+/* Styling af mail sektion */
 .skrivMail{
-    border: 1px solid black; /* Tykkelse, type og farve af kanten */
+    border: 1px solid black; 
     padding: 10px; 
     margin-left: 150px;
     margin-right: 150px;
 }
 
+/* Styling af tekst i footer nederst */
 .footerTekst{
     font-size: 3rem;
     padding: 80px;
@@ -248,30 +261,35 @@ aside.fireBillederNyeOl1 img{
     justify-content: space-between;
 }
 
+/* Styling af a i footer */
 .footerTekst a{
   color: #000;
 }
 
+/* Styling af p-tag ved hover */
 .footerTekst p:hover{
   text-decoration: underline;
 }
 
+/* Styling af p-lement med mindre skrift */
 .footerLille{
     font-size: 1rem;
     margin: 35px;
 }
 
+/* Styling af instagram ikon */
 .instagramIkon{
   width: 40px;
   height: auto;
 }
 
+/* Styling af instagram ikon ved hover */
 .instagramIkon:hover{
   transform: scale(1.5, 1.5);
 }
 
 /* EVENTS */
-
+/* Beholder med indledning styling */
 .eventTopBoks{
   display: flex;
   flex-wrap: wrap;
@@ -280,6 +298,7 @@ aside.fireBillederNyeOl1 img{
   padding: 80px 30px 0px 30px;
 }
 
+/* Styling af tekst i beholder */
 .eventTopTekst{
   width: 50%;
   font-size: 4rem;
@@ -289,11 +308,14 @@ aside.fireBillederNyeOl1 img{
 
 }
 
+/* Styling af img i beholder */
 .eventTopBoks img{
   width: 50%;
   height: auto;
 }
 
+/* Styiling af event beholder */
+/* Styling af boks 1 */
 .eventBoks1{
   display: flex;
   flex-wrap: wrap;
@@ -321,6 +343,7 @@ aside.fireBillederNyeOl1 img{
   height: auto;
 }
 
+/* Styling af boks 2 */
 .eventBoks2{
   display: flex;
   flex-wrap: wrap;
@@ -349,6 +372,7 @@ aside.fireBillederNyeOl1 img{
 
 /* ALKOHOLFRIE ØL */
 
+/* Styling af boks øverst */
 .eventTopTekstside2{
   color: #333399;
 }
@@ -362,6 +386,7 @@ aside.fireBillederNyeOl1 img{
   font-size: 3.25rem;
 }
 
+/* Styling af smage beholder */
 .smage{
   width: 100%;
   display: flex;
@@ -374,6 +399,7 @@ aside.fireBillederNyeOl1 img{
   margin-top: 40px;
 
 }
+
 .smage p{
   text-decoration: none;
   color: black;
@@ -385,6 +411,7 @@ aside.fireBillederNyeOl1 img{
   border: 1px solid black;
 }
 
+/* Styling af stort billede */
 .stortBilledBoks{
   padding: 0px 30px 0px 30px;
   width: 100%;
@@ -402,6 +429,7 @@ aside.fireBillederNyeOl1 img{
 
 /* ALKOHOLFRIE ØL SIDE */
 
+/* Styling af dropdown tekstboks */
 .tekstBokseffekt1 {
   background-color: white;
   color: #000;
@@ -416,27 +444,31 @@ aside.fireBillederNyeOl1 img{
   border-top: 1px solid black;;
 }
 
-
+/* Skuler ikon */
 .tekstBokseffekt1::-webkit-details-marker {
   display: none; 
 }
 
+/* Styling af pil ved åben */
 .tekstBoksEffekt[open] summary:after {
   content: "↑";
   float: right;
 }
 
+/* Styling af pil ved lukket */
 .tekstBokseffekt1:after {
   content: "↓";
   float: right;
 }
 
+/* Styling af ved tekstboks */
 .tekstBoksEffekt > p {
   padding: 10px;
   background-color: #F7F5F5;
   margin: 0;
 }
 
+/* Styling af beholder til tekst */
 .beskrivelseOlBoks{
   display: flex;
   flex-wrap: wrap;
@@ -444,11 +476,13 @@ aside.fireBillederNyeOl1 img{
   padding: 80px 15px 10px 15px;
 }
 
+/* Styling af billede */
 .beskrivelseOlBoks img{
   width: 50%;
   height: 715px;
 }
 
+/* Styling af beholder med tekst */
 .olSideTekst{
   width: 50%;
   line-height: 2;
@@ -457,22 +491,28 @@ aside.fireBillederNyeOl1 img{
   flex-direction: row-reverse;
 }
 
+/* Styling af p i beholder */
 .olSideTekst p{
   padding-bottom: 10px;
 }
 
+/* Styling af tekstboks øverst */
 .tekstBoksEffektOverste{
   padding: 100px 15px 0px 0px;
 }
+
+/* Styling af tekstboks nederst */
 .tekstBoksEffektNederste{
   padding: 0px 15px 0px 0px;
 }
 
+/* Styling af overskrift */
 .overskriftOl{
   font-size: 4rem;
   font-weight: 500;
 }
 
+/* Styling af tekst til højre */
 .tekstTilSideHøjre{
   font-size: 5rem;
   text-align: left;
@@ -482,14 +522,15 @@ aside.fireBillederNyeOl1 img{
   color: #8BAADF;
 }
 
+/* Styling af pale ale tekst */
 .paleAleTekst{
   width: 50%;
   padding: 15px 100px 0px 10px;
 }
 
+/* Styling af tekst */
 .tekstTilSideHøjreAlkoholfrieOL{
   width: 50%;
-
 }
 
 /* SMAGSTEST */
@@ -501,6 +542,7 @@ aside.fireBillederNyeOl1 img{
   color: #879AFE;
 }
 
+/* Styling af h1 */
 .smagstestTopBoks h1{
   font-weight: 500;
 }
@@ -542,16 +584,17 @@ aside.fireBillederNyeOl1 img{
   height: auto;
 }
 
+
 .tekstBoksEffektPils{
   padding: 50px 15px 0px 0px;
 }
 
+/* Styling af citater */
 .smagstestCitater{
   padding: 15px;
 }
 
 /* OM OS */
-
 /* Styling af boks øverst */
 .omosTopBoks{
   padding: 150px 150px 150px 150px;
@@ -559,15 +602,18 @@ aside.fireBillederNyeOl1 img{
   color: #333399;
 }
 
+/* Styling af p i beholder */
 .omosTopBoks p{
   font-size: 3rem;
   background-color: rgba(248, 248, 248, 0.8);
 }
 
+/* Styling af midterste boks */
 .omosMidtBoks {
   padding: 150px 200px 0px 200px;
 }
 
+/* Styling af p i beholder */
 .omosMidtBoks p{
   margin-bottom: 50px;
   text-transform: uppercase;
@@ -575,6 +621,7 @@ aside.fireBillederNyeOl1 img{
   color: #333399;
 }
 
+/* Styling af li */
 .omosMidtBoks li{
   list-style-type:decimal;
   margin-left: 100px;
@@ -584,6 +631,7 @@ aside.fireBillederNyeOl1 img{
   color: #333399;
 }
 
+/* Styling af overskrift */
 .fedSkrift {
   font-weight: 600;
 }
