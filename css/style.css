@@ -672,6 +672,7 @@ aside.fireBillederNyeOl1 img{
       #check:checked ~ ul {
         left: 0;
       }
+
       .fireBilleder{
         padding: 30px 15px 0px 15px;
     }
@@ -680,6 +681,7 @@ aside.fireBillederNyeOl1 img{
         font-size: 1.25rem; 
         padding: 0px 10px;   
     }
+
     .lasmere{
         font-size: 1.1rem;
     }
@@ -818,6 +820,7 @@ aside.fireBillederNyeOl1 img{
         font-size: 1.1rem;
         margin-top: 30px;
     }
+
     .lasmere{
         font-size: 1rem;
     }
@@ -834,6 +837,7 @@ aside.fireBillederNyeOl1 img{
     .nyhedsBrev{
       padding: 80px;
     }
+
     .footerTekst{
         font-size: 3rem;
         padding: 60px 10px 60px 10px;
@@ -851,6 +855,7 @@ aside.fireBillederNyeOl1 img{
       width: 30px;
       height: auto;
     }
+
     .tekstEvent1{
       width: 100%;
     }
@@ -925,7 +930,6 @@ aside.fireBillederNyeOl1 img{
     width: 100%;
   }
 
-
   .tekstBoksEffektNederste {
     padding: 0px 15px 40px 0px;
   }
@@ -995,6 +999,7 @@ aside.fireBillederNyeOl1 img{
     .nyeOl{
         font-size: 1.1rem;
     }
+
     .lasmere{
         font-size: 1rem;
     }
@@ -1002,6 +1007,7 @@ aside.fireBillederNyeOl1 img{
     aside.fireBillederNyeOl1 {
         width: 50%;
     }
+
     aside.toBilleder1 {
         width: 50%;
     }
@@ -1048,12 +1054,15 @@ aside.fireBillederNyeOl1 img{
   .footerLille{
     font-size: 1rem;
   }
+
   .forsideBilledTop .nytBilled{
     display: flex;
   }
+
   .forsideBilledTop .startBillede{
     display: none;
   }
+
   .instagramIkon{
     width: 20px;
     height: auto;
@@ -1112,6 +1121,7 @@ aside.fireBillederNyeOl1 img{
     margin-bottom: 20px;
     width: 10%;
   }
+  
   .stortBilledBoks{
     padding: 0px 10px 0px 10px;
   }
