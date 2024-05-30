@@ -200,6 +200,7 @@ aside.fireBillederNyeOl1 img{
 .forsideTekst p{
     margin: 50px 300px;
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 /* Styling af beholder med midt tekst */
@@ -212,6 +213,7 @@ aside.fireBillederNyeOl1 img{
 /* Styling af p-tag i forsidetekst beholder */
 .tekstForsideMidtStart p{
   margin: 50px 300px;
+  text-transform: uppercase;
 }
 
 /* Styling af billede beholder */
@@ -397,7 +399,6 @@ aside.fireBillederNyeOl1 img{
   font-size: 2rem;
   font-weight: 100;
   margin-top: 40px;
-
 }
 
 .smage p{
@@ -605,6 +606,7 @@ aside.fireBillederNyeOl1 img{
 /* Styling af p i beholder */
 .omosTopBoks p{
   font-size: 2rem;
+  text-transform: uppercase;
   background-color: rgba(248, 248, 248, 0.8);
 }
 
@@ -616,7 +618,6 @@ aside.fireBillederNyeOl1 img{
 /* Styling af p i beholder */
 .omosMidtBoks p{
   margin-bottom: 50px;
-  text-transform: uppercase;
   font-size: 1.5rem;
   color: #333399;
 }
@@ -626,7 +627,6 @@ aside.fireBillederNyeOl1 img{
   list-style-type:decimal;
   margin-left: 100px;
   margin-bottom: 50px;
-  text-transform: uppercase;
   font-size: 1.5rem;
   color: #333399;
 }
@@ -634,6 +634,49 @@ aside.fireBillederNyeOl1 img{
 /* Styling af overskrift */
 .fedSkrift {
   font-weight: 600;
+}
+
+.omosStortBillede{
+  margin-bottom: 50px;
+}
+
+/* LOKATIONER */
+/* Styling af overskrift beholder*/
+ .lokationerOverskrift{
+  padding: 100px 15px 0px 15px;
+ }
+
+ /* Styling af overskrift tekst */
+ .lokationerOverskrift p{
+  font-size: 12rem;
+  font-weight: 500;
+  color: #879AFE;
+  text-align: center;
+ }
+
+/*  Styling af a ved hover */
+.lokationerOverskrift a:hover{
+  text-decoration: underline;
+  color: #879AFE;
+}
+
+/* AARHUS BAR */
+.aarhusLokationBoks{
+  padding: 100px 30px 0px 30px;
+}
+
+.aarhusLokationTekst h1{
+  font-size: 10rem;
+  font-weight: 500;
+  color: #879AFE;
+}
+
+.aarhusLokationTekst p{
+  font-size: 2rem;
+}
+
+.aarhusLokationTekstNederst{
+  margin-bottom: 50px;
 }
 
 
@@ -684,6 +727,14 @@ aside.fireBillederNyeOl1 img{
 
     .lasmere{
         font-size: 1.1rem;
+    }
+
+    .tekstForsideMidtStart p{
+      margin: 50px 50px;
+    }
+
+    .forsideTekst p{
+      margin: 50px 50px;
     }
 
     .tekstEvent1{
@@ -802,6 +853,24 @@ aside.fireBillederNyeOl1 img{
   .omosMidtBoks li{
     font-size: 1.5rem;
   }
+
+  .tekstTilSideHøjre1Sammenhold{
+    font-size: 3rem;
+  }
+
+  .lokationerOverskrift p{
+    font-size: 10rem;
+  }
+
+  .aarhusLokationTekst h1{
+    font-size: 10rem;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+  
+  .aarhusLokationTekst p{
+    font-size: 1.5rem;
+  }
 }
 
   
@@ -832,6 +901,13 @@ aside.fireBillederNyeOl1 img{
     
     .forsideTekst p{
         margin: 30px 0;
+        text-transform: none;
+        font-weight: 200;
+    }
+
+    .tekstForsideMidtStart p{
+      text-transform: none;
+      font-weight: 200;
     }
 
     .nyhedsBrev{
@@ -986,6 +1062,23 @@ aside.fireBillederNyeOl1 img{
   .omosMidtBoks li{
     font-size: 1rem;
     margin-bottom: 20px;
+  }
+
+  .tekstTilSideHøjre1Sammenhold{
+    font-size: 2.5rem;
+  }
+  .lokationerOverskrift p{
+    font-size: 7rem;
+  }
+
+  .aarhusLokationTekst h1{
+    font-size: 8rem;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+  
+  .aarhusLokationTekst p{
+    font-size: 1.5rem;
   }
 }
   
@@ -1192,5 +1285,27 @@ aside.fireBillederNyeOl1 img{
 
   .omosMidtBoks li{
     margin-left: 30px;
+  }
+
+  .tekstTilSideHøjre1Sammenhold{
+    font-size: 1.5rem;
+  }
+
+  .lokationerOverskrift p{
+    font-size: 4rem;
+  }
+
+  .aarhusLokationTekst h1{
+    font-size: 5rem;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+  
+  .aarhusLokationTekst p{
+    font-size: 1rem;
+  }
+
+  .aarhusLokationBoks{
+    padding: 100px 15px 0px 15px;
   }
   }
