@@ -679,6 +679,48 @@ aside.fireBillederNyeOl1 img{
   margin-bottom: 50px;
 }
 
+/*Styling af brødkrummesti*/
+
+.broedkrummesti{
+  padding: 30px;
+}
+
+.broedkrummesti p{
+  font-size: 1rem;
+  color: #879AFE;
+}
+/*Styling af links brødkrummesti*/
+.broedkrummesti a{
+  color: #879AFE;
+  text-decoration: none;
+}
+
+/*Understreger links ved hover på brødkrummesti*/
+.broedkrummesti a:hover{
+  text-decoration: underline;
+}
+
+/*Farve på aktuel side på brødkrummesti*/
+.broedkrummesti span{
+  color: #333399;
+}
+
+.broedkrummestiOL{
+  padding: 0px;
+}
+
+.broedkrummestiSmagsTest{
+  padding: 15px;
+}
+
+.broedkrummestiAarhus p{
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.broedkrummestiOmOs{
+  padding: 30px 30px 0px 30px
+}
 
   /* Skærmstørrelse mindre eller lig med 1050px - Laptop */
   @media (max-width: 1050px){
@@ -721,8 +763,7 @@ aside.fireBillederNyeOl1 img{
     }
     
     .nyeOl{
-        font-size: 1.25rem; 
-        padding: 0px 10px;   
+        font-size: 1.25rem;   
     }
 
     .lasmere{
@@ -827,7 +868,6 @@ aside.fireBillederNyeOl1 img{
     width: 80%;
   }
   
-  
   /* Styling af citater til højre */
   .smagstestCitaterHøjre{
     padding: 0px 200px 50px 0px;
@@ -870,6 +910,19 @@ aside.fireBillederNyeOl1 img{
   
   .aarhusLokationTekst p{
     font-size: 1.5rem;
+  }
+
+  .broedkrummesti{
+    padding: 15px;
+  }
+
+  .broedkrummestiOL{
+    padding: 0px;
+  }
+
+  .broedkrummestiAarhus p{
+    font-size: 1rem;
+    margin-bottom: 30px;
   }
 }
 
@@ -1079,6 +1132,30 @@ aside.fireBillederNyeOl1 img{
   
   .aarhusLokationTekst p{
     font-size: 1.5rem;
+  }
+
+  .broedkrummesti{
+    padding: 10px;
+  }
+
+  .broedkrummestiOL{
+    padding: 0px;
+  }
+   .broedkrummesti p{
+    font-size: 0.5rem;
+   }
+
+  .broedkrummestiOL p{
+    font-size: 0.5rem;
+  }
+
+  .broedkrummestiAarhus p{
+    font-size: 0.5rem;
+    margin-bottom: 30px;
+  }
+
+  .broedkrummestiOmOs{
+    padding: 30px 50px 0px 50px
   }
 }
   
@@ -1302,10 +1379,27 @@ aside.fireBillederNyeOl1 img{
   }
   
   .aarhusLokationTekst p{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .aarhusLokationBoks{
     padding: 100px 15px 0px 15px;
+  }
+
+  .broedkrummesti{
+    padding: 10px;
+  }
+
+  .broedkrummestiOL{
+    padding: 0px;
+  }
+
+  .broedkrummestiAarhus p{
+    font-size: 0.5rem;
+    margin-bottom: 30px;
+  }
+
+  .broedkrummestiOmOs{
+    padding: 30px 15px 30px 15px
   }
   }
