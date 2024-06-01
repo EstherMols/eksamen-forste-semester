@@ -723,6 +723,11 @@ aside.fireBillederNyeOl1 img{
   font-size: 0.5rem;
 }
 
+/* Slogan forside */
+.tekstTilSideHøjre1Sammenhold{
+  font-size: 4rem;
+}
+
   /* Skærmstørrelse mindre eller lig med 1050px - Laptop */
   @media (max-width: 1050px){
       .checkbtn {
@@ -1120,7 +1125,7 @@ aside.fireBillederNyeOl1 img{
   }
 
   .tekstTilSideHøjre1Sammenhold{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .lokationerOverskrift p{
     font-size: 7rem;
@@ -1367,7 +1372,7 @@ aside.fireBillederNyeOl1 img{
   }
 
   .tekstTilSideHøjre1Sammenhold{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .lokationerOverskrift p{
