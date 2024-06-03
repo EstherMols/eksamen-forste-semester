@@ -584,7 +584,6 @@ aside.fireBillederNyeOl1 img{
   height: auto;
 }
 
-
 .tekstBoksEffektPils{
   padding: 50px 15px 0px 0px;
 }
@@ -851,7 +850,7 @@ aside.fireBillederNyeOl1 img{
   }
   .tekstTilSideHøjre{
     font-size: 4rem;
-    width: 40%;
+    width: 50%;
     padding: 15px;
   }
   .beskrivelseOlBoks img{
@@ -881,7 +880,7 @@ aside.fireBillederNyeOl1 img{
   
   /* Styling af citater til venstre */
   .smagstestCitaterVenstre{
-    padding: 10px 15px 10px 200px;
+    padding: 10px 15px 50px 200px;
   }
 
   .omosTopBoks p{
