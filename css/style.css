@@ -724,12 +724,9 @@ aside.fireBillederNyeOl1 img{
 
 /* Slogan forside */
 .tekstTilSideHøjre1Sammenhold{
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
-.tekstTilSideHøjre1Sammenhold{
-  width: 50%;
-}
 
   /* Skærmstørrelse mindre eller lig med 1050px - Laptop */
   @media (max-width: 1050px){
@@ -904,7 +901,7 @@ aside.fireBillederNyeOl1 img{
   }
 
   .tekstTilSideHøjre1Sammenhold{
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .lokationerOverskrift p{
