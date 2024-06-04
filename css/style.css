@@ -727,6 +727,10 @@ aside.fireBillederNyeOl1 img{
   font-size: 4rem;
 }
 
+.tekstTilSideHøjre1Sammenhold{
+  width: 50%;
+}
+
   /* Skærmstørrelse mindre eller lig med 1050px - Laptop */
   @media (max-width: 1050px){
       .checkbtn {
@@ -1075,7 +1079,7 @@ aside.fireBillederNyeOl1 img{
 
   .tekstTilSideHøjre{
     font-size: 3rem;
-    width: 40%;
+    width: 50%;
     padding: 15px;
   }
 
